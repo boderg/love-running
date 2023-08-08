@@ -229,6 +229,59 @@ footer {
   width: 100%;
 }
 
+.fa-solid, .fa-brands {
+  font-size: larger;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  top: 100px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.signup {
+  margin: 2rem auto;
+}
+
+label {
+  margin: 20px auto 10px auto;
+  height: 2rem;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.text-input {
+  border: 3px solid rgba(241, 109, 107, 1);
+  height: 2rem;
+  border-radius: 12px;
+}
+
+.join-button {
+  width: 20%;
+  margin: 3rem auto 6rem auto;
+  height: 3rem;
+  font-family: Oswald;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: x-large;
+  font-weight: bolder;
+  background-color: rgba(241, 109, 107, .7);
+  border-radius: 12px;
+  color: #fafafa;
+}
+
+.join-button:hover {
+  border: 3px solid rgba(241, 109, 107, 1);
+}
+
+input[type='radio'] {
+  accent-color: rgba(241, 109, 107, 1);
+}
+
 @media screen and (max-width: 1393px) { /* all below sets responsive styling for smaller devices*/
   #club-ethos {
     width: 65%;
